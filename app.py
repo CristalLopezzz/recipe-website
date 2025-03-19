@@ -30,16 +30,20 @@ base_template_start = '''
             padding: 20px;
             max-width: 800px;
             margin: 0 auto;
+            background-color: #f9f9f9; /* Added this line */
         }
         header {
             margin-bottom: 20px;
             border-bottom: 1px solid #ddd;
             padding-bottom: 10px;
+            background-color: #4a6fa5;  /* Added this line */
+            color: white;  /* Added this line */
+            padding: 15px;  /* Added this line */
         }
         nav a {
             margin-right: 15px;
             text-decoration: none;
-            color: #0066cc;
+            color: #e6f0ff; /* Changed color */
         }
         .recipe-grid {
             display: grid;
@@ -52,6 +56,8 @@ base_template_start = '''
             border-radius: 5px;
             padding: 15px;
             text-align: center;
+            background-color: #ffffff;  /* Added this line */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);  /* Added this line */
         }
         form div {
             margin-bottom: 15px;
@@ -67,7 +73,7 @@ base_template_start = '''
             border-radius: 4px;
         }
         button {
-            background-color: #0066cc;
+            background-color: #4a6fa5; /* Changed color */
             color: white;
             border: none;
             padding: 10px 15px;
