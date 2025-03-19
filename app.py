@@ -7,12 +7,12 @@ app = Flask(__name__)
 # Sample recipe data stored in a dictionary
 # Each recipe has a unique key (recipe_id) and contains name, ingredients list, and instructions
 recipes = {
-    
+
     "midnight-ramen": {
         "name": "Midnight Ramen",
         "ingredients": ["instant ramen", "egg", "green onions", "hot sauce"],
         "instructions": "1. Boil water\n2. Cook noodles\n3. Add toppings"
-    }
+    },
 
     "quick-pbj": {
     "name": "Quick PB&J",
