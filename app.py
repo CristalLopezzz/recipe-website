@@ -97,15 +97,15 @@ base_template_start = '''
 </head>
 <body>
     # Edit to combine both changes:
-    <header>
-        <h1>My Favorite Recipes</h1>
-        <p>A collection of delicious recipes to try at home</p>
-        <nav>
-            <a href="{{ url_for('index') }}">Home</a>
-            <a href="{{ url_for('add_recipe') }}">Add Recipe</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </nav>
+   <header>
+      <h1>My Favorite Recipes</h1>
+      <p>A collection of delicious recipes to try at home</p>
+      <nav>
+          <a href="{{ url_for('index') }}">Home</a>
+          <a href="{{ url_for('add_recipe') }}">Add Recipe</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+      </nav>
 </header>
     
     <main>
